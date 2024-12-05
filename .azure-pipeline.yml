@@ -1,0 +1,46 @@
+trigger:
+- main  # Replace with your branch name
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Debug'
+
+steps:
+# Step 1: Restore NuGet packages
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet packages'
+  inputs:
+    command: 'restore'
+    projects: '**/*.sln'
+
+# Step 2: Build the solution
+- task: DotNetCoreCLI@2
+  displayName: 'Build Solution'
+  inputs:
+    command: 'build'
+    projects: '**/*.sln'
+    arguments: '--configuration $(buildConfiguration)'
+
+# Step 3: Run the tests using dotnet test
+- task: CmdLine@2
+  displayName: 'Run Tests'
+  inputs:
+    script: |
+      dotnet test $(System.DefaultWorkingDirectory)/TrelloAutomation/TrelloAutomation.csproj --configuration $(buildConfiguration) --results-directory $(Build.ArtifactStagingDirectory)/TestResults
+
+# Step 4: Generate Living Documentation
+- task: CmdLine@2
+  displayName: 'Generate Living Documentation'
+  inputs:
+    script: |
+      livingdoc test-assembly $(Build.SourcesDirectory)/bin/$(BuildConfiguration)/TrelloAutomation.dll --test-execution-json $(Build.SourcesDirectory)/TestExecution.json --output $(Build.ArtifactStagingDirectory)/LivingDocumentation.html
+
+# Step 5: Publish Living Documentation as an Artifact
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Living Documentation as Artifact'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'LivingDoc'
+    publishLocation: 'Container'
