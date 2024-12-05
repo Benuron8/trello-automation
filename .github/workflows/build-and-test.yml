@@ -26,7 +26,10 @@ jobs:
 
       - name: Build solution
         run: dotnet build ./TrelloAutomation.sln --configuration 'Debug'
-
+        
+      - name: Change permissions for selenium-manager
+        run: chmod +x ./TrelloAutomation/bin/Debug/net7.0/selenium-manager/linux/selenium-manager
+        
       - name: Run tests
         run: dotnet test ./TrelloAutomation.sln --configuration 'Debug'
 
