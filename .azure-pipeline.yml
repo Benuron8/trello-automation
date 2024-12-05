@@ -17,11 +17,11 @@ steps:
 
 # Step 2: Build the solution
 - task: DotNetCoreCLI@2
-  displayName: 'Build the solution'
+  displayName: 'Build Solution'
   inputs:
     command: 'build'
     projects: '**/*.sln'
-    configuration: $(buildConfiguration)
+    arguments: '--configuration $(buildConfiguration)'
 
 # Step 3: Run the tests using dotnet test
 - task: CmdLine@2
