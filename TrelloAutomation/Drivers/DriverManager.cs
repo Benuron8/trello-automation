@@ -14,9 +14,6 @@ namespace TrelloAutomation.Drivers
 
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.AddArgument("--headless"); 
-            //chromeOptions.AddArgument("--no-sandbox");
-            //chromeOptions.AddArgument("--disable-dev-shm-usage");
-            //chromeOptions.AddArgument("--remote-debugging-port=9222");
 
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             firefoxOptions.AddArgument("--headless");

@@ -11,6 +11,11 @@ namespace TrelloAutomation.Helpers
 
             string? boardId = jsonResponse["id"]?.ToString();
 
+            if (string.IsNullOrEmpty(boardId))
+            {
+                throw new InvalidOperationException("The 'id' field is null.");
+            }
+
             Console.WriteLine("Board ID: " + boardId); 
 
             Hooks.BoardId = boardId;

@@ -14,6 +14,13 @@ public static class ConfigHelper
 
     public static string Get(string key)
     {
-        return _configuration[key];
+        var value = _configuration[key];
+
+        if (value == null)
+        {
+            throw new KeyNotFoundException($"The configuration key '{key}' was not found.");
+        }
+
+        return value;
     }
 }
