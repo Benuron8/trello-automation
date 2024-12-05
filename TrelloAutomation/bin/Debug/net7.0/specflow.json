@@ -1,0 +1,18 @@
+{
+  "specFlow": {
+    "bindingCulture": {
+      "language": "en-us"
+    },
+    "language": {
+      "feature": "en"
+    },
+    "plugins": [
+      {
+        "name": "SpecFlow.Plus.LivingDocPlugin"
+      }
+    ]
+  },
+  "sdk": {
+    "version": "7.0.100"
+  }
+}
