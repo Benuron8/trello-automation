@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\.azure-pipeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\.azure-pipeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{5da8d69b-058a-4294-a87a-f4f7ae2983b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".azure-pipeline.yml",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\.azure-pipeline.yml",
+              "RelativeDocumentMoniker": "TrelloAutomation\\.azure-pipeline.yml",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\.azure-pipeline.yml*",
+              "RelativeToolTip": "TrelloAutomation\\.azure-pipeline.yml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-05T17:36:54.456Z",
+              "EditorCaption": ""
             }
           ]
         }
