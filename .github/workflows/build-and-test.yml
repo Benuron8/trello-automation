@@ -22,13 +22,13 @@ jobs:
           dotnet-version: '7.0.x'
 
       - name: Restore NuGet packages
-        run: dotnet restore **/*.sln
+        run: dotnet restore ./TrelloAutomation.sln
 
       - name: Build solution
-        run: dotnet build **/*.sln --configuration 'Debug'
+        run: dotnet build ./TrelloAutomation.sln --configuration 'Debug'
 
       - name: Run tests
-        run: dotnet test **/*.sln --configuration 'Debug'
+        run: dotnet test ./TrelloAutomation.sln --configuration 'Debug'
 
       - name: Install LivingDoc tool
         run: |
