@@ -1,4 +1,4 @@
-﻿trigger:
+trigger:
 - main  # Replace with your branch name
 
 pool:
