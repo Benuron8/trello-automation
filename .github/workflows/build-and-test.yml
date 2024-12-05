@@ -33,13 +33,12 @@ jobs:
       - name: Run tests
         run: dotnet test ./TrelloAutomation.sln --configuration 'Debug'
 
-      - name: Install LivingDoc tool
-        run: |
-          dotnet tool install --global livingdoc.cli
+      - name: Install LivingDoc CLI
+        run: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 
       - name: Generate Living Documentation
         run: |
-          livingdoc test-assembly ./bin/Debug/net7.0/TrelloAutomation.dll --test-execution-json ./TestExecution.json --output ./LivingDocumentation.html
+          livingdoc test-assembly ./TrelloAutomation/bin/Debug/net7.0/TrelloAutomation.dll --test-execution-json ./TrelloAutomation/bin/Debug/net7.0/TestExecution.json --output ./LivingDocumentation.html
 
       - name: Upload Living Documentation as Artifact
         uses: actions/upload-artifact@v3
