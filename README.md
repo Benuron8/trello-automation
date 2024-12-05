@@ -3,6 +3,10 @@ Test Automation for Trello Board Creation
 This project consists in a Test Automation Suite with both Web and API tests for creating Trello boards using SpecFlow, Selenium WebDriver, and NUnit. 
 The tests are written using BDD principles with Gherkin syntax.
 
+The CI/CD of this project was done using GitHubActions because Azure was not allowing parallelism during this month until January.
+**** (last run from last push is failed because its not headless) ****
+
+
 Prerequisites:
 
 Ensure that you have the following software installed:
@@ -38,14 +42,17 @@ To run the tests, execute the following command:
 
 ##improvements###############
 
-## Mecanism for Cross testing within different browsers
+## Add mechanism so that I could pass as a parameter using environment variables the headless mode for CI CD remote runs
+For now Im just commenting the headless mode when I want to run locally using the browser and when I want to run the ci/cd im taking the comment out. (so last run from last push is failed because its not headless) 
+
+## Mechanism for Cross testing within different browsers
 For now I just manually define in Hooks.cs which browser I want to run the tests in line 21 Driver = driverManager.InitializeDriver();
 if this method receives a value within (Chrome, Edge, Firefox) it will run the tests in that browser. 
 By default if nothing is passed runs in Chrome.
 Like for example try to pass that information using the command for running the tests using environment variables and receive it and using it in the initializer.
 
 ## Handling Location-Based Email Verification
-When running the tests for the first time, you may encounter an email verification step from Trello. 
+From time to time, When running the tests you may encounter an email verification step from Trello. 
 This happens because Trello detects a login attempt from a new location or device different from the previous. 
 
 Follow the steps below to handle this issue:
@@ -70,9 +77,12 @@ Notes:
 This would be one of my improvements in this testing framework, then I noticed than if I perform the login using API call, this email Verification is not asked.
 
 ## Using Logging instead of Console Writelines
+Also using some Logging tool to manage logs instead of prints.
 
 ## Better exceptions Handling
+Better exceptions handling and better prevent for NULLS (I have some warnings in the project)
 
 ## Dependency injection instead of creating instances inside classes.
+
 
 ## Better use of scenarioContext instead of creating static variables.
