@@ -1,0 +1,45 @@
+﻿name: .NET Build, Test, and Living Documentation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: Restore NuGet packages
+        run: dotnet restore **/*.sln
+
+      - name: Build solution
+        run: dotnet build **/*.sln --configuration 'Debug'
+
+      - name: Run tests
+        run: dotnet test **/*.sln --configuration 'Debug'
+
+      - name: Install LivingDoc tool
+        run: |
+          dotnet tool install --global livingdoc.cli
+
+      - name: Generate Living Documentation
+        run: |
+          livingdoc test-assembly ./bin/Debug/net7.0/TrelloAutomation.dll --test-execution-json ./TestExecution.json --output ./LivingDocumentation.html
+
+      - name: Upload Living Documentation as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: LivingDocumentation
+          path: ./LivingDocumentation.html
