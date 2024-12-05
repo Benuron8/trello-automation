@@ -29,7 +29,7 @@ namespace TrelloAutomation.Pages
         private IWebElement BoardNameDisplay => WaitForElement(BoardNameDisplayLocator);
         private IWebElement BoardBody => WaitForElement(BoardBodyLocator);
         private IWebElement BoardVisibility => WaitForElement(BoardVisibilityLocator);
-
+        
         public bool IsBoardsSectionIsOpen()
         {
             return BoardsSection.Displayed;
