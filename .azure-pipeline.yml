@@ -9,15 +9,19 @@ variables:
 
 steps:
 # Step 1: Restore NuGet packages
-- task: Restore@1
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet packages'
   inputs:
-    restoreSolution: '**/*.sln'
+    command: 'restore'
+    projects: '**/*.sln'
 
 # Step 2: Build the solution
-- task: Build@1
+- task: DotNetCoreCLI@2
+  displayName: 'Build the solution'
   inputs:
-    solution: '**/*.sln'
-    buildConfiguration: '$(buildConfiguration)'
+    command: 'build'
+    projects: '**/*.sln'
+    configuration: $(buildConfiguration)
 
 # Step 3: Run the tests using dotnet test
 - task: CmdLine@2
