@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\.azure-pipeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\.azure-pipeline.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\drivers\\drivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\drivers\\drivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\steps\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\steps\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,27 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DriverManager.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Drivers\\DriverManager.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Drivers\\DriverManager.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Drivers\\DriverManager.cs",
+              "RelativeToolTip": "TrelloAutomation\\Drivers\\DriverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:09.882Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{5da8d69b-058a-4294-a87a-f4f7ae2983b3}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\Hooks.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Steps\\Hooks.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\Hooks.cs",
+              "RelativeToolTip": "TrelloAutomation\\Steps\\Hooks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:19.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".azure-pipeline.yml",
-              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\.azure-pipeline.yml",
-              "RelativeDocumentMoniker": "TrelloAutomation\\.azure-pipeline.yml",
-              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\.azure-pipeline.yml*",
-              "RelativeToolTip": "TrelloAutomation\\.azure-pipeline.yml*",
+              "DocumentIndex": 2,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BasePage.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Pages\\BasePage.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BasePage.cs",
+              "RelativeToolTip": "TrelloAutomation\\Pages\\BasePage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-05T17:36:54.456Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:16.144Z",
               "EditorCaption": ""
             }
           ]

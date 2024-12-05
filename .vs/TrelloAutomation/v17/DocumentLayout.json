@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\drivers\\drivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\drivers\\drivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\pages\\boardspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\pages\\boardspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\steps\\createboardstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\steps\\createboardstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|c:\\users\\betti\\onedrive\\ambiente de trabalho\\ultima versao\\trelloautomation_backup03.12.2024.23.24\\trelloautomation\\trelloautomation\\steps\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393CF6EF-E1A4-4523-B6E2-44881FA662BD}|TrelloAutomation\\TrelloAutomation.csproj|solutionrelative:trelloautomation\\steps\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBoardStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\CreateBoardStepDefinitions.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Steps\\CreateBoardStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\CreateBoardStepDefinitions.cs",
+              "RelativeToolTip": "TrelloAutomation\\Steps\\CreateBoardStepDefinitions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:19:18.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoardsPage.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BoardsPage.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Pages\\BoardsPage.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BoardsPage.cs",
+              "RelativeToolTip": "TrelloAutomation\\Pages\\BoardsPage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:19:00.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DriverManager.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Drivers\\DriverManager.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Drivers\\DriverManager.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Drivers\\DriverManager.cs",
+              "RelativeToolTip": "TrelloAutomation\\Drivers\\DriverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:09.882Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\Hooks.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Steps\\Hooks.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Steps\\Hooks.cs",
+              "RelativeToolTip": "TrelloAutomation\\Steps\\Hooks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:19.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BasePage.cs",
+              "RelativeDocumentMoniker": "TrelloAutomation\\Pages\\BasePage.cs",
+              "ToolTip": "C:\\Users\\betti\\OneDrive\\Ambiente de Trabalho\\Ultima Versao\\TrelloAutomation_backup03.12.2024.23.24\\TrelloAutomation\\TrelloAutomation\\Pages\\BasePage.cs",
+              "RelativeToolTip": "TrelloAutomation\\Pages\\BasePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:06:16.144Z",
+              "EditorCaption": ""
             }
           ]
         }
