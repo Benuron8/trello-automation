@@ -1,4 +1,3 @@
-using AngleSharp.Dom;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 using TrelloAutomation.Pages;

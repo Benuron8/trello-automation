@@ -14,7 +14,7 @@ namespace TrelloAutomation.Drivers
             IWebDriver driver;
 
             ChromeOptions chromeOptions = new ChromeOptions();
-                // chromeOptions.AddArgument("--headless");
+                chromeOptions.AddArgument("--headless");
                 //chromeOptions.AddArgument("--no-sandbox");
                 //chromeOptions.AddArgument("--disable-gpu");
                 //chromeOptions.AddArgument("--start-maximized");
